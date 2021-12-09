@@ -16,6 +16,7 @@ public class MainActivity extends AppCompatActivity {
         enter = findViewById(R.id.fb_webview);
         WebSettings webSettings = enter.getSettings();
         webSettings.setJavaScriptEnabled(true);
+        //2.
         enter.loadUrl("https://www.52pojie.cn/");
         enter.setWebViewClient(new WebViewClient());
     }
